@@ -50,7 +50,7 @@ const Balloon = () => {
                         style={{
                             backgroundColor: balloon.color, // Using the random color from predefined colors
                             width: `${balloon.size}px`,
-                            height: `${balloon.size * 1.4}px`,
+                            height: `${balloon.size }px`,
                             left: `${balloon.position}%`, // Random horizontal positioning
                             animationDelay: `${balloon.delay}s`,
                             animationDuration: `${balloon.duration}s`,
